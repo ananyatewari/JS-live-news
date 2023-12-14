@@ -1,7 +1,7 @@
 // Progression 1: create a function and fetch the api using axios
 function gettingNews() {
-    // axios.get("https://gnews.io/api/v4/search?q=example&lang=en&country=us&max=10&apikey=bae27bad050aa337416d3760cd8265b6")
-    axios.get("https://gnews.io/api/v4/search?q=example&lang=en&country=us&max=10&apikey=53ff4a1e8f8ea53c72374509562fa8b5")
+    axios.get("https://gnews.io/api/v4/search?q=example&lang=en&country=us&max=10&apikey=bae27bad050aa337416d3760cd8265b6")
+    // axios.get("https://gnews.io/api/v4/search?q=example&lang=en&country=us&max=10&apikey=53ff4a1e8f8ea53c72374509562fa8b5")
         .then((response) => {
             console.log(response.data);
             printingNews(response.data.articles);

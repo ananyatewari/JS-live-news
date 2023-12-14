@@ -9,6 +9,7 @@ We have learned all the important concepts in JavaScript. Now lets work with our
 There are no test cases for this lab - you just need to complete the task given below and compare the your output with the image provided below.
 As there are no test cases - so you are free to explore and experiment with your frontend skills -- keeping in mind -> the basic and required functionality mentioned below **must** be achieved -- only after that you are free to show-off your frontend skills!
 
+
 ### To Do: GET MY API
 
 Create an account in (https://gnews.io/). Once you create an account, go to settings and get your API key.
